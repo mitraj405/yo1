@@ -1,12 +1,12 @@
 import random
 
-l="abcdefghijklmnopqrstuvwxyz"
-u="QWERTYUIOPASDFGHJKLZXCVBNM"
-n="0123456789"
-s="!@#$&*"
+a="abcdefghijklmnopqrstuvwxyz"
+b="QWERTYUIOPASDFGHJKLZXCVBNM"
+c="0123456789"
+d="!@#$&*"
 
 length=16
-all=l+u+n+s
+all=a+b+c+d
 
 pas="".join(random.sample(all,length))
 print(pas)
